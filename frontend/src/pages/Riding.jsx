@@ -1,7 +1,6 @@
 import React, { useContext, useEffect } from "react";
 import { useLocation, Link } from "react-router-dom";
 import uberCar from "../assets/images/UberCar.webp";
-import uberMap from "../assets/images/Uber-map.webp";
 import { SocketContext } from "../context/SocketContext";
 import { useNavigate } from "react-router-dom";
 import LiveTracking from "../components/LiveTracking";
