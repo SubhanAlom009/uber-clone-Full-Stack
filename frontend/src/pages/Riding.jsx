@@ -53,9 +53,11 @@ function Riding() {
             className="w-20 h-20 object-cover rounded-md"
           />
           <div className="text-left">
-            {ride?.captain?.fullname?.firstname || ride?.captain?.fullname?.lastname ? (
+            {ride?.captain?.fullname?.firstname ||
+            ride?.captain?.fullname?.lastname ? (
               <p className="font-semibold text-gray-500 text-lg">
-                {ride?.captain?.fullname?.firstname} {ride?.captain?.fullname?.lastname}
+                {ride?.captain?.fullname?.firstname}{" "}
+                {ride?.captain?.fullname?.lastname}
               </p>
             ) : null}
             {ride?.captain?.vehicle?.plate ? (
