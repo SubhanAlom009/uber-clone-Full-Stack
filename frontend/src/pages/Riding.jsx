@@ -26,7 +26,7 @@ function Riding() {
     return () => {
       socket.off("ride-ended", handleRideEnded);
     };
-  }, [socket]);
+  }, [navigate, socket]);
 
   return (
     <div className="relative h-screen w-screen">
